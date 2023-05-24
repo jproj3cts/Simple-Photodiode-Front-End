@@ -1,9 +1,11 @@
 # Simple-Slow-Photodiode-Front-End (Work in progress)
 This project aims to provide a very simple slow (~15KHz) but low noise photodiode front end, for the use in building scientific instrumentation.
 
+<img src="Media/pdCircuit.PNG" width=30% height=30% alt = "pdCircuit.png" title="pdCircuit.png">
+
 <img src="Media/pdDiagram.PNG" width=100% height=100% alt = "pdDiagram.png" title="pdDiagram.png">
 
-<img src="Media/pdCircuit.PNG" width=30% height=30% alt = "pdCircuit.png" title="pdCircuit.png">
+
 
 ## BILL OF MATERIALS
   ```
