@@ -5,6 +5,7 @@ This project aims to provide a simple slow (~15KHz) but very cheap and low noise
   ```
 Later
   ```
+ ## Circuit Design
 
 <img src="Media/pdCircuit.PNG" width=30% height=30% alt = "pdCircuit.png" title="pdCircuit.png">
 
