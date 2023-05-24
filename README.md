@@ -7,7 +7,8 @@ PBSS4360PA5-QX
 TC1014-3.3VCT713
 OPT101P-J
 0805 Resistors
-0805 Capacitors
+0805 Ceramic Capacitors
+0805 Tantalum Capacitor (optional)
   ```
  ## Circuit Design
 
