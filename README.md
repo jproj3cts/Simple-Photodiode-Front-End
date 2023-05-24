@@ -7,16 +7,14 @@ Later
   ```
  ## Circuit Design
 
-<img src="Media/pdCircuit.PNG" width=30% height=30% alt = "pdCircuit.png" title="pdCircuit.png">
-
-The general scheme of this device is shown below. As can be seen, it is formed of three sections: a capacitance multiplier, a 3.3V regulator, and the OPT101 itself. The first two stages function to minimise input noise as much as possible, with the capacitance multiplier functioning to almost entirely remove mains ripple. The OPT101 is a monolithic photodiode and single-supply transimpedance amplifier, so conveniently amplifies the photodiode output without . The disadvantage of course is that it has a relatively limited bandwidth of ~15KHz, but this should be good enough for applications that require only a slow response time such as a spectrophotometer.
+The general scheme of this device is shown below. As can be seen, it is formed of three sections: a capacitance multiplier, a 3.3V regulator, and the OPT101 itself. The first two stages function to minimise input noise as much as possible, with the capacitance multiplier functioning to almost entirely remove mains ripple. The OPT101 is a monolithic photodiode and single-supply transimpedance amplifier, so conveniently amplifies the photodiode output without requiring an external TIA and biases the device too. The disadvantage of course is that it has a relatively limited bandwidth of ~15KHz, but this should be good enough for applications that require only a slow response time such as a spectrophotometer.
 
 <img src="Media/pdDiagram.PNG" width=100% height=100% alt = "pdDiagram.png" title="pdDiagram.png">
-
-
-
-
   
  ## Assembly
 
+The PCB itself can be fabricated using your favorite online service by simply uploading the "photodiode for fabrication.zip" file to their online store. I go with JLCPCB, but others are available. Assebly should also be possible using these services if you provide a BOM too, though some special considerations may need to be made for the OPT101 chip since it is an optical component. Elsewise, you can do what I did and hand solder the components.
 
+<img src="Media/pdCircuit.PNG" width=30% height=30% alt = "pdCircuit.png" title="pdCircuit.png">
+
+It is an option to use a tantalum capacitor for C1 to avoid the microphonics associated with ceramic ones. The device can be mounted to a case with a M4 bolt and is designed such that it has no conductive pads on its back and the area around H1 is grounded. As such, if bolted to a conductive case, the case will be grounded and act as an EMI shield. Using only one screw hole also allows fine angluar adjustment of the placement of the photodiode, should that be required.
