@@ -1,5 +1,5 @@
 # Simple-Photodiode-Front-End (Work in progress)
-This project aims to provide a simple slow (~15KHz) but very cheap and low noise photodiode front end, for the use in building scientific instrumentation.
+This project aims to provide a simple slow (~15KHz) but very cheap and low noise large area photodiode front end, for the use in building scientific instrumentation.
 
 ## BILL OF MATERIALS
   ```
