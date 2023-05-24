@@ -18,3 +18,6 @@ The PCB itself can be fabricated using your favorite online service by simply up
 <img src="Media/pdCircuit.PNG" width=30% height=30% alt = "pdCircuit.png" title="pdCircuit.png">
 
 It is an option to use a tantalum capacitor for C1 to avoid the microphonics associated with ceramic ones. The device can be mounted to a case with a M4 bolt and is designed such that it has no conductive pads on its back and the area around H1 is grounded. As such, if bolted to a conductive case, the case will be grounded and act as an EMI shield. Using only one screw hole also allows fine angluar adjustment of the placement of the photodiode, should that be required.
+
+R2, R3, C4, and C5 are all optional and can be used to set the gain and bandwidth of the detector yourself, details on this are in the OPT101 datasheet (https://www.ti.com/lit/ds/symlink/opt101.pdf). If you would like to use the chip with its internal gain of 1$M\Omega$  then simply short R3 or C5 and leave the others empty.
+
