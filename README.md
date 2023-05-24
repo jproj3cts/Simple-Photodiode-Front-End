@@ -3,7 +3,11 @@ This project aims to provide a simple slow (~15KHz) but very cheap and low noise
 
 ## BILL OF MATERIALS
   ```
-Later
+PBSS4360PA5-QX
+TC1014-3.3VCT713
+OPT101P-J
+0805 Resistors
+0805 Capacitors
   ```
  ## Circuit Design
 
